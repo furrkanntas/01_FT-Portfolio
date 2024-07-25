@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Furkan Tas | Portfolio</title>
+</head>
+
+<body class="bg-gradient-custom">
+    <main class="w-fit h-screen font-body flex flex-col">
+        <!-- *********************************** OffScren NAVBAR START *********************************** -->
+        <div class="hidden lg:block container mx-auto px-4 sm:px-6 lg:px-8 py-10">
+            <nav class="flex flex-row justify-between">
+                <div class="text-green-700 font-bold text-4xl font-mono">
+                    Furkan Taş
+                </div>
+                <div>
+                    <ul class="flex gap-4 sm:gap-6 lg:gap-10">
+                        <li>
+                            <a href="./about.html" target="_self"
+                                class="btn text-primary border-b-2 border-b-primary">About</a>
+                        </li>
+                        <li>
+                            <a href="./index.html" target="_self" class="btn">Projects</a>
+                        </li>
+                        <li>
+                            <a href="./experience.html" class="btn">Experience</a>
+                        </li>
+                        <li>
+                            <a href="./contact.html" class="btn">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!-- *********************************** OffScren NAVBAR END *********************************** -->
+        <!-- *********************************** Hamburger START *********************************** -->
+        <div class="container block lg:hidden mx-auto px-4 sm:px-6 lg:px-8 py-10">
+            <nav class="flex flex-row justify-between items-start">
+                <div class="text-green-700 font-bold text-3xl font-mono mt-1">
+                    Furkan Taş
+                </div>
+                <div class="flex flex-row p-3 borderft text-center">
+                    <ul id="ftmenu"
+                        class="hidden overflow-hidden transition-[max-height,max-width] duration-500 ease-in-out max-h-0 max-w-0 flex flex-col items-center gap-4">
+                        <li>
+                            <a href="./about.html" target="_self"
+                                class="btnxs text-primary border-b-2 border-b-primary">About</a>
+                        </li>
+                        <li>
+                            <a href="./index.html" target="_self" class="btnxs">Projects</a>
+                        </li>
+                        <li>
+                            <a href="./experience.html" class="btnxs">Experience</a>
+                        </li>
+                        <li class="pb-2">
+                            <a href="./contact.html" class="btnxs">Contact</a>
+                        </li>
+                    </ul>
+                    <div id="toggleMenu" class="cursor-pointer flex flex-col justify-start items-center ml-auto gap-1">
+                        <div class="ftLine line1"></div>
+                        <div class="ftLine line2"></div>
+                        <div class="ftLine line3"></div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- *********************************** Hamburger END *********************************** -->
+        <!-- *********************************** MAIN START *********************************** -->
+        <section class="flex flex-col mx-auto gap-4 lg:gap-20 lg:max-w-[80%]">
+            <div class="flex flex-col items-center">
+                <p class="font-semibold">Explore</p>
+                <h1 class="text-4xl font-bold">About Me</h1>
+            </div>
+            <section class="grid grid-cols-1 mx-auto xl:grid-cols-12 gap-4 max-w-[80%] lg:max-w-fit">
+                <div class="xl:col-span-4 flex justify-center items-start">
+                    <img src="ft-1.jpg" alt="furkan" class="w-48 sm:w-60 lg:w-72 borderft">
+                </div>
+                <!-- *********************************** EXPERIENCE START *********************************** -->
+                <div class="xl:col-span-8 pb-20">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <article class="borderft text-center">
+                            <section class="flex flex-col items-center p-3">
+                                <img src="./experience.png" class="icon-2" alt="education">
+                                <h2 class="text-2xl font-bold">Experience</h2>
+                            </section>
+                            <section class="flex flex-col pb-3">
+                                <h3 class="text-lg font-bold">6+ month</h3>
+                                <p>Frontend Development</p>
+                            </section>
+                        </article>
+                        <!-- *********************************** EXPERIENCE END *********************************** -->
+                        <!-- *********************************** EDUCATION START *********************************** -->
+                        <article class="borderft text-center">
+                            <section class="flex flex-col items-center p-3">
+                                <img src="./education.png" class="icon-2" alt="education">
+                                <h2 class="text-2xl font-bold">Education</h2>
+                            </section>
+                            <section class="flex flex-col pb-3">
+                                <h3 class="text-lg font-semibold">Gazi University Faculty of Architecture</h3>
+                                <h3 class="text-lg font-semibold">Department of Architecture</h3>
+                                <p>Bachelor's Degree Graduate</p>
+                            </section>
+                        </article>
+                        <!-- *********************************** EDUCATION END *********************************** -->
+                    </div>
+                    <!-- *********************************** TEXT START *********************************** -->
+                    <div class="text-center pt-4">
+                        As a passionate architect turned front-end developer, I craft digital experiences that
+                        blend
+                        creativity with functionality. With a keen eye for design and a dedication to
+                        user-centric
+                        solutions, I bring ideas to life through code and pixels. Let's build something
+                        extraordinary
+                        together.
+                    </div>
+                    <!-- *********************************** TEXT END *********************************** -->
+                </div>
+            </section>
+        </section>
+        <footer class="flex justify-center items-end h-1/2 pb-5">
+            <div class="text-xs">Copyright &#169; 2024 Furkan Taş</div>
+        </footer>
+    </main>
+    <script src="./navbar.js"></script>
+</body>
+
+</html>
