@@ -613,12 +613,12 @@ video {
   margin-top: 2.5rem;
 }
 
-.mt-5{
-  margin-top: 1.25rem;
-}
-
 .mt-3{
   margin-top: 0.75rem;
+}
+
+.mt-5{
+  margin-top: 1.25rem;
 }
 
 .block{
@@ -649,10 +649,6 @@ video {
   max-height: 0px;
 }
 
-.w-screen{
-  width: 100vw;
-}
-
 .w-48{
   width: 12rem;
 }
@@ -666,16 +662,20 @@ video {
   width: 100%;
 }
 
+.w-screen{
+  width: 100vw;
+}
+
 .max-w-0{
   max-width: 0px;
 }
 
-.max-w-\[80\%\]{
-  max-width: 80%;
-}
-
 .max-w-\[700px\]{
   max-width: 700px;
+}
+
+.max-w-\[80\%\]{
+  max-width: 80%;
 }
 
 .cursor-pointer{
@@ -730,24 +730,24 @@ video {
   gap: 0.25rem;
 }
 
-.gap-4{
-  gap: 1rem;
-}
-
-.gap-5{
-  gap: 1.25rem;
-}
-
-.gap-3{
-  gap: 0.75rem;
-}
-
 .gap-10{
   gap: 2.5rem;
 }
 
 .gap-2{
   gap: 0.5rem;
+}
+
+.gap-3{
+  gap: 0.75rem;
+}
+
+.gap-4{
+  gap: 1rem;
+}
+
+.gap-5{
+  gap: 1.25rem;
 }
 
 .overflow-hidden{
@@ -789,16 +789,16 @@ video {
   padding-bottom: 0.5rem;
 }
 
-.pb-5{
-  padding-bottom: 1.25rem;
-}
-
 .pb-20{
   padding-bottom: 5rem;
 }
 
 .pb-3{
   padding-bottom: 0.75rem;
+}
+
+.pb-5{
+  padding-bottom: 1.25rem;
 }
 
 .pt-4{
@@ -817,6 +817,11 @@ video {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+.text-2xl{
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .text-3xl{
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -827,19 +832,14 @@ video {
   line-height: 2.5rem;
 }
 
-.text-xs{
-  font-size: 0.75rem;
-  line-height: 1rem;
-}
-
-.text-2xl{
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
 .text-lg{
   font-size: 1.125rem;
   line-height: 1.75rem;
+}
+
+.text-xs{
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .font-bold{
