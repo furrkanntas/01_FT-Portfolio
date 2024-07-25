@@ -1,0 +1,24 @@
+# Node.js dependencies
+/node_modules
+
+# Output of the 'npm' command
+/package-lock.json
+/npm-debug.log
+
+# Output of the 'yarn' command
+/yarn-error.log
+yarn.lock
+
+# macOS
+.DS_Store
+
+# Editor-specific
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+.komodotools/
+
+# Build output
+/dist/
