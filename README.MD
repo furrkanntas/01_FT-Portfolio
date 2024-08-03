@@ -1,8 +1,11 @@
 # Furkan Taş | Portfolio
 Welcome to my portfolio site! This site showcases my background, projects, experience, and contact information.
+
 ## Overview
 
 This is the contact page of Furkan Taş's portfolio website. On this portfolio site, you can find brief information about me, view the projects I have completed in the field of front-end development, and see the education and certifications I have received. Additionally, you can find channels to contact me.
+
+![Demo](public/img/portfoliosas.gif)
 
 ## Files
 
