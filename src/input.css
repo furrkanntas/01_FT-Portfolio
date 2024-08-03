@@ -21,11 +21,11 @@
 }
 
 .cardtop {
-    @apply w-60 h-60;
+    @apply w-[450px] h-60;
 }
 
 .cardft {
-    @apply border-4 border-green-700 border-dashed cursor-pointer rounded-3xl w-40 h-40 flex justify-center items-center hover:w-60 hover:h-60 hover:border-solid hover:bg-gradient-to-r from-ftLightGreen to-ftLiveOrange transition-all duration-300 ease-in-out shadow-lg;
+    @apply border-2 border-green-700 border-dashed cursor-pointer rounded-3xl w-40 h-40 flex justify-center items-center hover:w-[400px] hover:h-60 hover:border-solid  transition-all duration-300 ease-in-out shadow-xl;
 }
 
 .borderft {
@@ -79,7 +79,7 @@
   }
 
   .bg-gradient-custom {
-    background: linear-gradient(135deg, #a5bda6, #f0ca92, #a5bda6);
+    background: linear-gradient(135deg, #c5ddc6, #ffeac2, #c5ddc6);
     background-size: 200% 200%;
     background-repeat: no-repeat;
     background-attachment: fixed;
