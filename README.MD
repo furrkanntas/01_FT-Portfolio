@@ -1,6 +1,8 @@
 # Furkan Taş | Portfolio
 Welcome to my portfolio site! This site showcases my background, projects, experience, and contact information.
 
+🟨 **Portfolio Site Link:** <a href="https://furrkanntas.github.io/01_FT-Portfolio/index.html" target="_blank" rel="noopener noreferrer">Explore My Projects</a>
+
 ## Overview
 
 This is the contact page of Furkan Taş's portfolio website. On this portfolio site, you can find brief information about me, view the projects I have completed in the field of front-end development, and see the education and certifications I have received. Additionally, you can find channels to contact me.
@@ -38,4 +40,6 @@ This is the contact page of Furkan Taş's portfolio website. On this portfolio s
 Thank you for visiting my portfolio site! I hope you enjoyed exploring my projects and learning more about my background in front-end development. If you have any questions or suggestions, feel free to reach out to me through the provided contact channels. Your feedback is greatly appreciated!
 
 Best regards,  
-Furkan Taş
+**Furkan Taş**
+
+🟨 **Portfolio Site Link:** <a href="https://furrkanntas.github.io/01_FT-Portfolio/index.html" target="_blank" rel="noopener noreferrer">Explore My Projects</a>
